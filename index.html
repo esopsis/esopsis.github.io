@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Esopsis.GitHub.io by esopsis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Esopsis.GitHub.io</h1>
+      <h2 class="project-tagline">Eric James Parfitt&#39;s Programming Projects</h2>
+    </section>
+
+    <section class="main-content">
+      <p>(This page is most definitely under construction)</p>
+
+<h2>
+<a id="my-projects" class="anchor" href="#my-projects" aria-hidden="true"><span class="octicon octicon-link"></span></a>My Projects</h2>
+
+<p>These projects are generally ordered by when I made them, from newest to oldest.  Since I've mainly been teaching myself to code, the code in some of the newer projects might be a little better put together than in the older ones.  I seem to tend to work on projects which are visual in some way, and that perhaps have some kind of chaotic behavior.</p>
+
+<h2>
+<a id="cellular-automaton-tiles" class="anchor" href="#cellular-automaton-tiles" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cellular Automaton Tiles</h2>
+
+<p>A Dr. Paul Harrison has found a way to make universal cellular automaton tiles, <a href="http://www.logarithmic.net/pfh/blog/01104447019">here</a>.  His tiles can emulate any of the 256 elementary cellular automaton.  I, however, found a smaller set of tiles with a smaller number of types of sides that emulates just rule 110. And it's prettier ;-)  Here are some images of some tiles I printed out on magnetic paper and put on my refrigerator:</p>
+
+<p><img src="https://raw.githubusercontent.com/esopsis/Images/master/SimpleTiles.jpg" alt="Simple initial condition">
+<img src="https://raw.githubusercontent.com/esopsis/Images/master/LessSimpleTiles.jpg" alt="Less simple initial condition"></p>
+
+<p>Here is a link to the source code for a project I am working on which will allow one to play around with the tiles on a computer.  Eventually I am thinking of making it into a mobile app.</p>
+
+<p><a href="https://github.com/esopsis/Rule110Tiles">https://github.com/esopsis/Rule110Tiles</a></p>
+
+<p>And <a href="https://github.com/esopsis/Images/blob/master/Rule%20110%20Tiles.svg">here</a> is the vector graphics file with which one can print their own tiles out on magnetic paper with a regular inkjet printer (office supply stores often carry it.)  I reccomend opening the file with a vector graphics program like <a href="https://inkscape.org/en/">Inkskape</a>.  You can also arrange the tiles using that program, but it's not QUITE the samee as my own Python program I don't think ;-)</p>
+
+<h2>
+<a id="invented-font" class="anchor" href="#invented-font" aria-hidden="true"><span class="octicon octicon-link"></span></a>Invented Font</h2>
+
+<p>This program is designed for coding and decoding the roman alphabet into and out of a character set I made up.  My characters are all made up of either one or two of a set of four different character parts which can be combined in different ways to get a total of 30 new characters.  Here's the translator in action:</p>
+
+
+
+<p>And here's a familiar English phrase I wrote with the characters by hand:</p>
+
+<p><img src="https://raw.githubusercontent.com/esopsis/Images/master/Ericbic.jpg" alt="Ericbic sample"></p>
+
+<p>Here's the code for the translator:</p>
+
+<p><a href="https://github.com/esopsis/Ericbic">https://github.com/esopsis/Ericbic</a></p>
+
+<h2>
+<a id="base-infinity" class="anchor" href="#base-infinity" aria-hidden="true"><span class="octicon octicon-link"></span></a>Base Infinity</h2>
+
+<p>Base 2 has 2 sybols, base 10 has 10 symbols, so, logically, base infinity has an infinite number of symbols, one for each non-negative integer.  Here is a video showing an interpretation of base infinity that I made:</p>
+
+
+
+<p>And here is some code I used for making these symbols:</p>
+
+<p><a href="https://github.com/esopsis/BaseInfinity">https://github.com/esopsis/BaseInfinity</a></p>
+
+<h2>
+<a id="cannibalistic-explodey-guys" class="anchor" href="#cannibalistic-explodey-guys" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cannibalistic Explodey Guys</h2>
+
+<p>Here's a video of a simple "mindless fun" kind of "game" I made.  You click on a guy and he explodes, then his little friends come and eat him.  Exciting.</p>
+
+
+
+<p>And here's the code:</p>
+
+<p><a href="https://github.com/esopsis/ExplodeyGuys">https://github.com/esopsis/ExplodeyGuys</a></p>
+
+<h2>
+<a id="physical-cyclic-tag-system" class="anchor" href="#physical-cyclic-tag-system" aria-hidden="true"><span class="octicon octicon-link"></span></a>Physical Cyclic Tag System</h2>
+
+<p>Here is a program for creating “Rube Goldberg” style contraptions consisting of balls, levers, ramps, and ropes.   One advantage this program might have over others is that the balls move in discrete jumps, so one can more easily get the behavior one desires, possibly without having to go through as much trial and error.  I made this program primarily to show how it would be possible to make a “physical” system which emulates  a kind of simple program called a cyclic tag system.  This idea was first presented by Stephen Wolfram in his book <a href="http://www.wolframscience.com/nksonline/toc.html">A New Kind of Science</a>, but without an actual implementation.   Below is an implementation of system d on NKS page 96.  See pages 96 and 895 at the NKS book link for more information.</p>
+
+
+
+<p>Here is the code:</p>
+
+<p><a href="https://github.com/esopsis/CyclicTag">https://github.com/esopsis/CyclicTag</a></p>
+
+<h2>
+<a id="binary-evaluator" class="anchor" href="#binary-evaluator" aria-hidden="true"><span class="octicon octicon-link"></span></a>Binary Evaluator</h2>
+
+<p>Here are a couple of programs which simply turn a binary sequence into a series of left and right turns.  In the first case, if two paths would overlap, the program shifts over and begins drawing again.  In the second case, the program attempts to avoid hitting itself, in such a way that different binary sequences always produce a different pattern (not necessarily the case in the first program.)  Both are working with the first 123 digits of pi.</p>
+
+
+
+<p>Here's the code:</p>
+
+<p><a href="https://github.com/esopsis/BinaryEvaluator">https://github.com/esopsis/BinaryEvaluator</a></p>
+
+<h2>
+<a id="self-avoiding-hexagonal-branching" class="anchor" href="#self-avoiding-hexagonal-branching" aria-hidden="true"><span class="octicon octicon-link"></span></a>Self Avoiding Hexagonal Branching</h2>
+
+<p>Here's a program I wrote which starts with a single branch and continues drawing branches at the ends of each previous branch. Going clockwise, branches are added except when a branch would collide with the end of an existing branch .  I came up with this one while doodling in class.  It made an interesting pattern on paper, so I implemented it on the computer.  This is one of the first programs I wrote in Mathematica, but I also wrote a Python version before that. </p>
+
+
+
+<p>Here's the code in Python:</p>
+
+<p><a href="https://github.com/esopsis/Branchles">https://github.com/esopsis/Branchles</a></p>
+
+<p>And here's a demonstration I posted, using Mathematica (the code can be found on this page):</p>
+
+<p><a href="http://demonstrations.wolfram.com/SelfAvoidingHexagonalBranching/">http://demonstrations.wolfram.com/SelfAvoidingHexagonalBranching/</a></p>
+
+<p>Here's a program which interprets the evolution of a <a href="https://en.wikipedia.org/wiki/Rule_110">rule 110 cellular automaton</a> as a bunch of different colord triangle-oid shapes.  A randomizing element runs slowly from right to left on the screen, to keep the evolution from dying down. </p>
+
+
+
+<p>Here's the code:</p>
+
+<p><a href="https://github.com/esopsis/CAColorRandomizer">https://github.com/esopsis/CAColorRandomizer</a></p>
+
+<h2>
+<a id="reversible-ca" class="anchor" href="#reversible-ca" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reversible CA</h2>
+
+<p>Here's a program which runs a reversible cellular automaton, Wolfram's Rule 37R.  The program colors three different kinds of patterns in the overall pattern in different colors, to help visualize them better.  A second version draws borders between these patterns.
+The code is a modified version of a <a href="http://sjsu.rudyrucker.com/%7Ekwanghyung.paek/applet/">program</a> by Kwanghyun Pek.</p>
+
+
+
+<p>Here's the code:</p>
+
+<p><a href="https://github.com/esopsis/ReversibleCA">https://github.com/esopsis/ReversibleCA</a></p>
+
+<h2>
+<a id="the-beginnings-of-a-4d-battle-tank-game" class="anchor" href="#the-beginnings-of-a-4d-battle-tank-game" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Beginnings of a 4D Battle Tank Game</h2>
+
+<p>Here are two programs, one which takes 2D slices of a 3D terrain, and one which takes 4D slices of a 3D terrain.  I intend to make these into some kind of battle tank game eventually.</p>
+
+
+
+<p>Here's the code for both:
+<a href="https://github.com/esopsis/3DSlicer">https://github.com/esopsis/3DSlicer</a>
+<a href="https://github.com/esopsis/4DSlicer">https://github.com/esopsis/4DSlicer</a></p>
+
+<p>The 4D version uses code from a [tutorial]<a href="http://nehe.gamedev.net/tutorial/beautiful_landscapes_by_means_of_height_mapping/16006/">http://nehe.gamedev.net/tutorial/beautiful_landscapes_by_means_of_height_mapping/16006/</a> from nehe.gamedev.net, namely lesson 34 which shows how to make a 3D terrain from a shaded 2D bitmap.</p>
+
+<h2>
+<a id="word-frequency-sorter" class="anchor" href="#word-frequency-sorter" aria-hidden="true"><span class="octicon octicon-link"></span></a>Word Frequency Sorter</h2>
+
+<p>Finally, here's a simple project which just takes both a list of words, and a list of expected word frequences, and puts the words in order of how much more they are found in the first list as compared with the second list of expected values.</p>
+
+<p><a href="https://github.com/esopsis/RelativeWordFrequencies">https://github.com/esopsis/RelativeWordFrequencies</a></p>
+
+      <footer class="site-footer">
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
